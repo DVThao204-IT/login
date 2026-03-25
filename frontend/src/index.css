@@ -1,0 +1,85 @@
+
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container {
+  width: 360px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.auth-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.auth-sub {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.input-box i {
+  margin-right: 8px;
+  color: #999;
+}
+
+.toggle {
+  cursor: pointer;
+}
+
+.btn-primary {
+  width: 100%;
+  background: #ff6b00;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #e65c00;
+}
+
+.link {
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.note {
+  font-size: 13px;
+  color: #666;
+}
